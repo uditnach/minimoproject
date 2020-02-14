@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Merriweather:300,400,700,900&display=swap');
+/*font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;*/
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    color: #616161;
+}
+header{}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+.logo a{
+    padding: 17px 0;
+    display: block;
+
+}
+nav{
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+nav ul{
+    margin: 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px 35px;
+    display: inline-block;
+    color: #666666;
+}
+nav ul li a:hover{color: #6464649e;}
+nav ul li .travel{
+    padding: 20px 0 20px 35px;
+}
+/*banner-section*/
+.banner{}
+.banner img{
+    width: 100%;
+}
+/*banner-section*/
+
+
+/*article-section*/
+.article{}
+.article article{
+    padding: 90px;
+}
+.article article h1{
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.article article h6{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.article article p{
+    margin: 0;
+    font-size: 16px;
+    padding: 20px 0;
+} 
+/*article-section*/
+/*comment-section*/
+.comment h6 a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #616161;
+}
+/*comment-section*/
+
+/*blog-section*/
+.blog{}
+.blog .article .container article{
+    padding-top: 0;
+}
+.blog article .blog1{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 15px 0 0;
+}
+.blog article .blog2{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 0 0 15px;
+}
+.blog1 img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.blog2 img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+/*blog-section*/
+/*footer-section*/
+.footer{
+    background: #F0F0F0;
+}
+.footer .container{margin: auto;overflow: hidden;}
+.footer .container .conditon-menu{
+    width: 50%;
+    float: left;
+    padding: 25px 0 25px 0;
+    text-align: left;
+}
+.footer .container .conditon-menu ul{
+    margin: 0;
+}
+.footer .container .conditon-menu ul li{
+    list-style: none;
+    display: inline;
+    display: inline-block;
+}
+.footer .container .conditon-menu ul li a:hover{color: #6464649e;}
+
+.footer .container .conditon-menu ul li .terms{text-decoration: none;padding: 0 15px 0 50px;color: #222222;}
+.footer .container .conditon-menu ul li .terms span{
+    text-transform: uppercase;
+}
+.footer .container .conditon-menu ul li .privacy{text-decoration: none;color: #222222;text-transform: capitalize;padding: 0 15px;}
+.footer .container .social-menu{
+    width: 50%;
+    float: left;
+    display: inline-block;
+    padding: 25px 0 25px 0;
+    text-align: right;
+}
+.footer .container .social-menu ul{
+    margin: 0;
+}
+.footer .container .social-menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 6px;
+}
+.footer .container .social-menu ul li a{
+    color: #646464;
+    padding: 0 6px;
+}
+.footer .container .social-menu ul li span{
+    color: #222222;
+    text-transform: capitalize;
+}
+.footer .container .social-menu ul li .instagram{padding: 0 0 0 6px;}
+.footer .container .social-menu ul li a:hover{
+    color: #6464649e;
+}
+/*footer-section*/
